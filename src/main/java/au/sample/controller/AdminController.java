@@ -26,7 +26,7 @@ public class AdminController {
 	public ResponseEntity<?> getApplication() {
 		
 		System.out.println("Inside the getApplication");
-
+		return null;
 	}	
 	
 	
