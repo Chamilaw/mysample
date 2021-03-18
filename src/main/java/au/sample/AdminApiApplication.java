@@ -19,12 +19,12 @@ import org.springframework.jndi.JndiObjectFactoryBean;
 public class AdminApiApplication  extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OesAdminApiApplication.class, args);
+		SpringApplication.run(AdminApiApplication.class, args);
 	}
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(OesAdminApiApplication.class);
+        return application.sources(AdminApiApplication.class);
     }
 
 }
